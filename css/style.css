@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 *,
 :after,
 :before {
@@ -595,6 +597,108 @@ textarea::placeholder {
     h2{
         font-size: 40px;
     }
+
+    .navbar-toggler, .navbar-toggler:focus{
+        border: none;
+        box-shadow: none;
+        outline: none;
+    }
+    .burger {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        border-radius: 50%;
+        z-index: 99999;
+        background: #FD5B3C
+    }
+    
+    .burger.bg-blue {
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2)
+    }
+    
+    .burger span {
+        position: relative;
+        margin-top: 9px;
+        margin-bottom: 9px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -13px;
+        margin-top: -1px
+    }
+    
+    .burger span,
+    .burger span::before,
+    .burger span::after {
+        display: block;
+        width: 18px;
+        height: 2px;
+        background-color: #fff;
+        outline: 1px solid transparent;
+        -webkit-transition-property: background-color, -webkit-transform;
+        -moz-transition-property: background-color, -moz-transform;
+        -o-transition-property: background-color, -o-transform;
+        transition-property: background-color, transform;
+        -webkit-transition-duration: .3s;
+        -moz-transition-duration: .3s;
+        -o-transition-duration: .3s;
+        transition-duration: .3s
+    }
+    
+    .burger span::before,
+    .burger span::after {
+        position: absolute;
+        content: "";
+        width: 26px
+    }
+    
+    .burger span::before {
+        top: -7px
+    }
+    
+    .burger span::after {
+        top: 7px
+    }
+    
+    .burger.clicked span {
+        background-color: transparent
+    }
+    
+    .burger.clicked span::before {
+        -webkit-transform: translateY(9px) rotate(45deg);
+        -moz-transform: translateY(9px) rotate(45deg);
+        -ms-transform: translateY(9px) rotate(45deg);
+        -o-transform: translateY(9px) rotate(45deg);
+        transform: translateY(9px) rotate(45deg);
+        top: -10px
+    }
+    
+    .burger.clicked span::after {
+        -webkit-transform: translateY(-9px) rotate(-45deg);
+        -moz-transform: translateY(-9px) rotate(-45deg);
+        -ms-transform: translateY(-9px) rotate(-45deg);
+        -o-transform: translateY(-9px) rotate(-45deg);
+        transform: translateY(-9px) rotate(-45deg)
+    }
+    
+    .burger.clicked span:before,
+    .burger.clicked span:after {
+        background-color: #fff
+    }
+    
+    .burger:hover {
+        cursor: pointer
+    }
+
+
     .banner{
         padding: 160px 0 60px 0;
     }
