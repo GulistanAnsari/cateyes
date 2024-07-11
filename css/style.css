@@ -574,6 +574,44 @@ textarea::placeholder {
 
 @media only screen and (min-width:1920px) {
 
+    section {
+        padding: 90px 0;
+    }
+    body, .btn{
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    h1{
+        font-size: 8em;
+    }
+    h2{
+        font-size: 54px;
+    }
+    h6{
+        font-size: 16px;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 16px;
+    }
+    .navbar-brand img {
+        max-width: 140px;
+    }
+    .banner {
+        padding: 220px 0 100px 0;
+    }
+    
+    .banner .caption h2{
+        font-size: 36px;
+    }
+    .info h2 {
+        font-size: 54px;
+    }
+    .info h5 {
+        font-size: 24px;
+    }
+    
+
 }
 @media (max-width: 1024px){
     .navbar-light .navbar-nav .nav-link {
