@@ -152,6 +152,7 @@ header {
     transform: translateY(100px);
     z-index: 999;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 5px 15px;
 }
 
 
@@ -602,7 +603,7 @@ textarea::placeholder {
     }
     
     .banner .caption h2{
-        font-size: 36px;
+        font-size: 36-px;
     }
     .info h2 {
         font-size: 54px;
@@ -627,7 +628,7 @@ textarea::placeholder {
 
 @media (max-width: 991px){
     section {
-        padding: 50px 0;
+        padding: 60px 0;
     }
     h1 {
         font-size: 5em;
@@ -635,7 +636,9 @@ textarea::placeholder {
     h2{
         font-size: 40px;
     }
-
+    .navbar-brand img {
+        max-width: 110px;
+    }
     .navbar-toggler, .navbar-toggler:focus{
         border: none;
         box-shadow: none;
@@ -736,7 +739,9 @@ textarea::placeholder {
     .burger:hover {
         cursor: pointer
     }
-
+    .sticky .burger{
+        top: 10px;
+    }
 
     .banner{
         padding: 160px 0 60px 0;
@@ -861,6 +866,13 @@ textarea::placeholder {
     }
     .contact-item h4 {
         font-size: 17px;
+    }
+
+    .inner-banner{
+        padding: 150px 2px 60px 20px;
+    }
+    .inner-banner .caption h1 {
+        font-size: 26px;
     }
     
 

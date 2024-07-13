@@ -29,6 +29,10 @@ $(document).ready(function() {
     $('.burger').click(function () {
         $('.burger').toggleClass('clicked');
     });
+    $('.nav-link').click(function () {
+        $('.show').toggleClass('show');
+        $('.burger').removeClass('clicked');
+    });
 
 
 
