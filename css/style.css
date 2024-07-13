@@ -376,9 +376,9 @@ header {
 .gallery-item{
     position: relative;
     margin-bottom: 25px;
-    -webkit-box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.10);
+    /* -webkit-box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.10);
     -moz-box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.10);
-    box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.10);
+    box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.10); */
 }
 .gallery-item img{
     height: 250px;
