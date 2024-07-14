@@ -34,23 +34,23 @@
                     method="POST">
                         <div class="row">
                             <div class="col-sm-6 mb-4 position-relative">
-                                <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" autocomplete="off">
+                                <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" required autocomplete="off">
                                 <span class="error"></span>
                             </div>
                             <div class="col-sm-6 mb-4 position-relative">
-                                <input type="tel" class="form-control" id="tel" placeholder="Enter Number" name="tel" autocomplete="off">
+                                <input type="tel" class="form-control" id="tel" placeholder="Enter Number" name="tel" required autocomplete="off">
                                 <span class="error"></span>
                             </div>
                             <div class="col-sm-6 mb-4 position-relative">
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" autocomplete="off">
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required autocomplete="off">
                                 <span class="error"></span>
                             </div>                            
                             <div class="col-sm-6 mb-4 position-relative">
-                                <input type="text" class="form-control" id="subject" placeholder="Enter Subject" name="subject" autocomplete="off">
+                                <input type="text" class="form-control" id="subject" placeholder="Enter Subject" name="subject" required autocomplete="off">
                                 <span class="error"></span>
                             </div>
                             <div class="col-sm-12 mb-4 position-relative">
-                                <textarea name="message" id="message" placeholder="Message" autocomplete="off"></textarea>
+                                <textarea name="message" id="message" placeholder="Message" required autocomplete="off"></textarea>
                                 <span class="error"></span>
                             </div>
                             <div class="col-sm-12">
